@@ -1,0 +1,14 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "lightdots-photography",
+    "description": "",
+    "home_page_url": "http://lightdots.in",
+    "feed_url": "http://lightdots.in/feed.json",
+    "user_comment": "",
+    "icon": "http://lightdots.in/media/website/lightdots_logo.png",
+    "author": {
+        "name": "Lightdots Photography"
+    },
+    "items": [
+    ]
+}
