@@ -13,7 +13,7 @@
         <link type="application/atom+xml" rel="alternate" href="http://lightdots.in/feed.xml"/>
         <meta property="og:title" content="Interior" /><meta property="og:image" content="http://lightdots.in/media/website/ld_logo.jpg"/><meta property="og:site_name" content="Lightdots Photography" /><meta property="og:description" content="" />
 	        <link rel="shortcut icon" href="http://lightdots.in/media/website/favicon.png" type="image/png" />
-         <link rel="stylesheet" href="http://lightdots.in/assets/css/style.css?v=fe1adcb4247017a7ca18c2c12e273f67">	
+         <link rel="stylesheet" href="http://lightdots.in/assets/css/style.css?v=106665fcf8563f2fc8f2d9a71ecc6046">	
                  <link rel="stylesheet" href="http://lightdots.in/assets/css/photoswipe.css?v=7e14b6046e97ff84a469eb41d53004d3">
         <script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"http://lightdots.in/interior.html"},"headline":"Interior","datePublished":"2018-04-16T19:09","dateModified":"2018-04-18T20:23","image":{"@type":"ImageObject","url":"http://lightdots.in/media/website/ld_logo.jpg","height":92,"width":200},"description":"","author":{"@type":"Person","name":"Lightdots Photography"},"publisher":{"@type":"Organization","name":"Lightdots Photography","logo":{"@type":"ImageObject","url":"http://lightdots.in/media/website/ld_logo.jpg","height":92,"width":200}}}</script>
             <script async src="http://lightdots.in/assets/js/lazysizes.min.js?v=739e7d27e1cbc58b1b2e6882674b8867"></script>
@@ -170,7 +170,7 @@
         </script>
         <script defer src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
         <script defer src="http://lightdots.in/assets/js/scripts.min.js?v=5977caa3bd6c30eab5c559ded3288d58"></script>
-                  <script defer src="http://lightdots.in/assets/js/photoswipe.min.js?v=9c62086e50d89a9b6a29389a70ee0d65"></script>
+                  <script defer src="http://lightdots.in/assets/js/photoswipe.min.js?v=43296ac95c605bbdda957ee018904d3c"></script>
                   <script defer src="http://lightdots.in/assets/js/photoswipe-ui-default.min.js?v=aafb02c13ce2b295ff34a8ac0db67cbb"></script>        
                   <script>var initPhotoSwipeFromDOM=function(gallerySelector){var parseThumbnailElements=function(el){var thumbElements=el.childNodes,numNodes=thumbElements.length,items=[],figureEl,linkEl,size,item;for(var i=0;i<numNodes;i++){figureEl=thumbElements[i];if(figureEl.nodeType!==1){continue;}
                   linkEl=figureEl.children[0];size=linkEl.getAttribute('data-size').split('x');item={src:linkEl.getAttribute('href'),w:parseInt(size[0],10),h:parseInt(size[1],10)};if(figureEl.children.length>1){item.title=figureEl.children[1].innerHTML;}
@@ -186,7 +186,7 @@
                   var pair=vars[i].split('=');if(pair.length<2){continue;}
                   params[pair[0]]=pair[1];}
                   if(params.gid){params.gid=parseInt(params.gid,10);}
-                  return params;};var openPhotoSwipe=function(index,galleryElement,disableAnimation,fromURL){var pswpElement=document.querySelectorAll('.pswp')[0],gallery,options,items;items=parseThumbnailElements(galleryElement);options={galleryUID:galleryElement.getAttribute('data-pswp-uid'),getThumbBoundsFn:function(index){var thumbnail=items[index].el.getElementsByTagName('img')[0],pageYScroll=window.pageYOffset||document.documentElement.scrollTop,rect=thumbnail.getBoundingClientRect();return{x:rect.left+300,y:rect.top+pageYScroll,w:rect.width-500};},
+                  return params;};var openPhotoSwipe=function(index,galleryElement,disableAnimation,fromURL){var pswpElement=document.querySelectorAll('.pswp')[0],gallery,options,items;items=parseThumbnailElements(galleryElement);options={galleryUID:galleryElement.getAttribute('data-pswp-uid'),getThumbBoundsFn:function(index){var thumbnail=items[index].el.getElementsByTagName('img')[0],pageYScroll=window.pageYOffset||document.documentElement.scrollTop,rect=thumbnail.getBoundingClientRect();return{x:rect.left,y:rect.top+pageYScroll,w:rect.width};},
                   mainClass:'pswp--dark',
                   hideAnimationDuration:200,
                   showAnimationDuration:0,
