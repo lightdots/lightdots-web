@@ -2,10 +2,10 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "lightdots-photography",
     "description": "",
-    "home_page_url": "http://lightdots.in",
-    "feed_url": "http://lightdots.in/feed.json",
+    "home_page_url": "http://www.lightdots.in",
+    "feed_url": "http://www.lightdots.in/feed.json",
     "user_comment": "",
-    "icon": "http://lightdots.in/media/website/ld_logo.jpg",
+    "icon": "http://www.lightdots.in/media/website/ld_logo.jpg",
     "author": {
         "name": "Lightdots Photography"
     },
